@@ -1,0 +1,61 @@
+.produtos{
+  h1{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    h2{
+      color: #403d39;;
+    }
+  }
+  h2, strong, div{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .produtos-stars{
+    color: #ffb703;
+    margin-top: 0px;
+  }
+}
+
+.roupas-populares{
+  .salopete-preto {
+    img{
+      width: 250px;
+    }
+  }
+
+  .salopete-rosa {
+    img{
+      width: 255px;
+    }
+  }
+
+  .cardigan-branco {
+    img{
+      width: 250px;
+    }
+  }
+
+  .casaco-branco {
+    img{
+      width: 250px;
+    }
+  }
+}
+ body{
+  background: #fefae0;
+ }
+
+ button{
+  background: none;
+  position: relative;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 450px;
+ }

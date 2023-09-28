@@ -1,0 +1,16 @@
+//fonte
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200&display=swap');
+
+//components
+@import './header.scss';
+@import './nav-produtos.scss';
+@import './produtos.scss';
+@import './footer.scss';
+
+*{
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: 'Onest', sans-serif;
+}
+

@@ -1,0 +1,38 @@
+.nav-produtos{
+  background: #d5bdaf;
+  section{
+    ul.nav {
+      color: #fff;
+      z-index: 999;
+      padding: 15px;
+      gap: 30px;
+      // display: none;
+      // position: relative;
+      li{
+        padding: 5px;
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.dropdown {
+  display: none;
+  background-color: #d5bdaf;
+  position: absolute;
+  z-index: 1;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  
+}

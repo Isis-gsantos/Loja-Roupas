@@ -1,0 +1,42 @@
+header {
+  background: #e3d5ca;
+  section { 
+    article {
+      ul, li{
+        a{
+          font-family: 'Onest', sans-serif;
+          font-weight: 400;
+          color: #403d39;
+          text-decoration: none;
+          display: flex;
+          margin: 0 15px;
+
+          svg{
+            position: relative;
+            right: 5px;
+            margin-top: 3px;
+          }
+        }
+      }
+
+      form{
+        input {
+          border-radius: 100px;
+          padding: 10px 30px;
+        }
+      }
+
+      button{
+        background: none;
+        position: absolute;
+        right: 330px;
+      }
+
+      a {
+        img {
+          width: 120px;
+        }
+      }
+    }
+  }
+}
