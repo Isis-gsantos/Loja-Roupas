@@ -22,40 +22,42 @@
 }
 
 .roupas-populares{
-  .salopete-preto {
+  margin-bottom: 40px;
+  .produtos-itens {
     img{
       width: 250px;
     }
-  }
 
-  .salopete-rosa {
-    img{
-      width: 255px;
+    .salopete-rosa {
+      img{
+        width: 255px;
+      }
     }
-  }
 
-  .cardigan-branco {
-    img{
-      width: 250px;
+    .camiseta-listrada {
+      img{
+        width: 245px;
+      }
     }
-  }
 
-  .casaco-branco {
-    img{
-      width: 250px;
+    .vestido-xadrez, .casaco-marrom {
+      img {
+        width: 253px;
+      };
     }
   }
 }
- body{
+
+ body {
   background: #fefae0;
  }
 
- button{
+ .btn-saiba-mais {
   background: none;
-  position: relative;
-  padding: 40px;
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 450px;
+  position: relative;
+  left: 490px;
  }
