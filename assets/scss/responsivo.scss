@@ -1,0 +1,165 @@
+@media (max-width: 1900px) {
+  header {
+    section {
+      article {
+        .lupa {
+          position: relative;
+          right: 40px;
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 560px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 490px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 400px;
+      }
+    }
+  }
+
+  .roupas-populares {
+    .produtos-itens {
+      img {
+        width: 200px;
+      }
+
+      .salopete-rosa {
+        img {
+          width: 205px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    section {
+      article {
+
+        ul,
+        li {
+          display: flex;
+          flex-direction: column;
+          padding: 8px;
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 290px;
+      }
+    }
+  }
+
+  .roupas-populares {
+    .produtos-itens {
+      img {
+        width: 160px;
+      }
+
+      .salopete-rosa {
+        img {
+          width: 162px;
+        }
+      }
+
+      .cardigan-branco {
+
+        h2,
+        strong,
+        .produtos-stars {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header{
+    ul{
+      li{
+        margin:7px 0;
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 190px;
+      }
+    }
+  }
+
+  .roupas-populares {
+    display:block;
+    // flex-direction: column;
+    position: relative;
+    left: 120px;
+    
+    .produtos-itens {
+      img{
+        width: 250px;
+      }
+      .salopete-rosa {
+        img {
+          width: 255px;
+        }
+      }
+      h2, strong, div {
+         margin-top: 10px;
+         margin-bottom: 0px;
+        }
+      .produtos-stars {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  footer {
+    section {
+      margin: 10px 0;
+      ul, li {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    width: 100%;
+  }
+}
