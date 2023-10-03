@@ -3,8 +3,14 @@ footer{
   color: #fff;
   padding: 25px 0;
   section{
+    h4 {
+      color: #ff758f;
+      font-weight: bold;
+    }
     ul{
       margin-top: 8px;
+      display: flex;
+      justify-content: space-around;
       li{
         margin-top: 5px;
         a{

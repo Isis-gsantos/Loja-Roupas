@@ -1,0 +1,325 @@
+@media (max-width: 1900px) {
+  header {
+    section {
+      article {
+        .lupa {
+          position: relative;
+          right: 40px;
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 560px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 490px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 400px;
+      }
+    }
+  }
+
+  .roupas-populares {
+    .produtos-itens {
+      img {
+        width: 200px;
+      }
+
+      .salopete-rosa {
+        img {
+          width: 205px;
+        }
+      }
+
+      .camiseta-listrada {
+        img {
+          width: 195px;
+        }
+      }
+
+      .vestido-xadrez,
+      .casaco-marrom {
+        img {
+          width: 203px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    section {
+      article {
+
+        ul,
+        li {
+          display: flex;
+          flex-direction: column;
+          padding: 8px;
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 290px;
+      }
+    }
+
+    .produtos {
+      h1 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .roupas-populares {
+
+    h2,
+    strong {
+      font-size: 16px;
+    }
+
+    .produtos-itens {
+      img {
+        width: 160px;
+      }
+
+      .salopete-rosa {
+        img {
+          width: 162px;
+        }
+      }
+
+      .camiseta-listrada {
+
+        h2,
+        strong,
+        .produtos-stars {
+          font-size: 16px;
+        }
+
+        img {
+          width: 156px;
+        }
+      }
+
+      .vestido-xadrez,
+      .casaco-marrom {
+        img {
+          width: 163px;
+        }
+      }
+
+      .cardigan-branco {
+
+        h2,
+        strong,
+        .produtos-stars {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    ul {
+      li {
+        margin: 7px 0;
+      }
+    }
+  }
+
+  main {
+    section {
+      .btn-saiba-mais {
+        position: relative;
+        left: 190px;
+      }
+    }
+  }
+
+  .roupas-populares {
+    display: block;
+    position: relative;
+    left: 120px;
+
+    .produtos-itens {
+      img {
+        width: 250px;
+      }
+
+      .salopete-rosa {
+        img {
+          width: 255px;
+        }
+      }
+
+      .camiseta-listrada {
+        img {
+          width: 245px;
+        }
+
+        h2,
+        strong {
+          font-size: 20px;
+        }
+      }
+
+      .vestido-xadrez,
+      .casaco-marrom {
+        img {
+          width: 253px;
+        }
+      }
+
+      .cardigan-branco {
+
+        h2,
+        strong {
+          font-size: 20px;
+        }
+      }
+
+      h2,
+      strong,
+      div {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 20px;
+      }
+
+      .produtos-stars {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  footer {
+    section {
+      margin: 10px 0;
+
+      ul,
+      li {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .container-fluid {
+    width: 103.5vh;
+  }
+
+  main {
+    .carousel, h1, p {
+      position: relative;
+      left: 55px;
+    }
+    .produtos-stars-compra {
+      position: relative;
+      left: 55px;
+    }
+
+    .roupas-populares {
+      display: block;
+      justify-content: center;
+      .produtos-itens {
+        h2, strong {
+          font-size: 17px;
+        }
+
+        .cardigan-branco {
+          h2, strong {
+            font-size: 17px;
+          }
+        }
+
+        .casaco-branco {
+          h2, strong {
+            font-size: 16px;
+          }
+        }
+
+        .camiseta-listrada, .casaco-marrom {
+          h2, strong {
+            font-size: 16px;
+          }
+        }
+
+        .vestido-branco {
+          strong {
+            font-size: 15px;
+          }
+        }
+
+        .produtos-stars {
+          font-size: 10px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    .carousel, h1, p {
+      position: relative;
+      left: 80px;
+    }
+
+    .produtos-stars-compra {
+      position: relative;
+      left: 80px;
+    }
+
+    .roupas-populares {
+      .produtos-itens {
+        strong {
+          font-size: 14px;
+        }
+        .cardigan-branco, .casaco-branco {
+          strong {
+            font-size: 14px;
+          }
+        }
+        .vestido-branco, .camiseta-listrada, .casaco-marrom {
+          strong {
+            font-size: 13px;
+          }
+        }
+    }
+  }
+}
+}
